@@ -27,6 +27,10 @@ button {
   margin: 0px 20px
 }
 
+.hidden {
+  display: none;
+}
+
 section {
   display: flex;
   justify-content: space-around;
@@ -60,7 +64,7 @@ input {
   margin: 10px 5px
 }
 
-article > img {
+.cookpot-image {
   height: 150px;
   width: 150px;
 }
