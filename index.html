@@ -9,11 +9,11 @@
 <article class="Form">
 <form>
   <h2>What are you looking for?</h2>
-  <input type="radio" id="meal1" name="meal" value="Side">
+  <input type="radio" id="meal1" name="meal" value='Sides'>
     <label for="meal1">Side</label><br>
-    <input type="radio" id="meal2" name="meal" value="Main Dish">
+    <input type="radio" id="meal2" name="meal" value="Mains">
     <label for="meal2">Main Dish</label><br>
-    <input type="radio" id="meal3" name="meal" value="Dessert">
+    <input type="radio" id="meal3" name="meal" value="Desserts">
     <label for="meal3">Dessert</label><br>
     <input type="radio" id="meal4" name="meal" value="Entire Meal">
     <label for="meal4">Entire Meal</label><br><br>
@@ -21,7 +21,14 @@
 </form>
 </article>
 <article class="recipe-output">
-<img src="assets/cookpot.svg" alt="a crockpot">
+<div class="cookpot-image">
+<img src="assets/cookpot.svg" alt="a coockpot">
+</div>
+<div class="what-to-make hidden">
+<p>You should make:</p>
+<h2 class="random-items"> </div>
+<button class = "clear">Clear</button>
+</div>
 </article>
 </section>
 
