@@ -4,34 +4,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-<nav><p>What's for dinner?</p><button class="add-a-recipe">Add a Recipe</button></nav>
-<section class="main-content">
-<article class="Form">
-<form>
-  <h2>What are you looking for?</h2>
-  <input type="radio" id="meal1" name="meal" value='Sides'>
-    <label for="meal1">Side</label><br>
-    <input type="radio" id="meal2" name="meal" value="Mains">
-    <label for="meal2">Main Dish</label><br>
-    <input type="radio" id="meal3" name="meal" value="Desserts">
-    <label for="meal3">Dessert</label><br>
-    <input type="radio" id="meal4" name="meal" value="Entire Meal">
-    <label for="meal4">Entire Meal</label><br><br>
-    <button class="lets-cook">Let's Cook</button>
-</form>
+  <nav>
+    <p>What's for dinner?</p>
+    <button class="add-a-recipe">Add a Recipe</button>
+  </nav>
+  <section class="main-content">
+    <article class="Form">
+      <form>
+        <h2>What are you looking for?</h2>
+        <input type="radio" id="meal1" name="meal" value='Sides'>
+        <label for="meal1">Side</label><br>
+        <input type="radio" id="meal2" name="meal" value="Mains">
+        <label for="meal2">Main Dish</label><br>
+        <input type="radio" id="meal3" name="meal" value="Desserts">
+        <label for="meal3">Dessert</label><br>
+        <input type="radio" id="meal4" name="meal" value="Entire Meal">
+        <label for="meal4">Entire Meal</label><br><br>
+        <button class="lets-cook">Let's Cook</button>
+      </form>
 </article>
-<article class="recipe-output">
-<div class="cookpot-image">
-<img src="assets/cookpot.svg" alt="a coockpot">
-</div>
-<div class="what-to-make hidden">
-<p>You should make:</p>
-<h2 class="random-items"> </div>
-<button class = "clear">Clear</button>
-</div>
-</article>
-</section>
+    </article>
+    <article class="recipe-output">
+      <div class="cookpot-image">
+        <img src="assets/cookpot.svg" alt="a coockpot">
+      </div>
+      <div class="what-to-make hidden">
+        <div class="form-output">
+          <p>You should make:</p>
+          <h1 class="random-items"> </h1>
+        </div>
+        <button class = "clear">Clear</button>
+      </div>
 
+    </article>
+  </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
