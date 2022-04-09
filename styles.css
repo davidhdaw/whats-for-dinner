@@ -111,6 +111,17 @@ h1 {
   align-self: flex-end;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 35px;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .9);
+  padding:10px;
+}
+
 .hidden {
   display: none!important;
 }
