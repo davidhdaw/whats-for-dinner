@@ -20,7 +20,7 @@
         <label for="meal3">Dessert</label><br>
         <input type="radio" id="meal4" name="meal" value="Entire Meal">
         <label for="meal4">Entire Meal</label><br><br>
-        <button class="lets-cook">Let's Cook</button>
+        <button class="lets-cook hidden">Let's Cook</button>
       </form>
 </article>
     </article>
@@ -36,6 +36,15 @@
 
     </article>
   </section>
+  <footer class="hidden">
+    <label for="recipe-type">Recipe Type:</label>
+    <input type="text" id="recipe-type">
+    <label for="recipe-name">Recipe Name:</label>
+    <input type="text" id="recipe-name">
+    <button class="add-new">ADD NEW</button>
+    <h2 class="all-fields-error hidden">Please fill in all fields.</h2>
+    <h2 class="valid-type-error hidden">Please enter a valid Recipe Type.</h2>
+  </footer>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
