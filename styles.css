@@ -79,6 +79,15 @@ body {
   border: 0px;
   border-radius: 5px;
   padding: 10px 60px;
+
+}
+
+.add-new {
+  background-color: #0fb9b1;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 0px 20px;
 }
 
 h1 {
@@ -111,6 +120,14 @@ h1 {
   align-self: flex-end;
 }
 
+.form {
+  justify-content: flex-start;
+}
+
+form {
+  margin-top: 80px
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -119,7 +136,7 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: rgba(225, 225, 225, .9);
-  padding:10px;
+  padding: 10px 0px;
 }
 
 .hidden {
