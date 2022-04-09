@@ -56,32 +56,25 @@ var cookpot = document.querySelector(".cookpot-image")
 //Event listen'n
 cookBtn.addEventListener('click', letsCook)
 
-
-
-
-
 //lets write some functions
 function letsCook() {
   event.preventDefault()
   var meal = getRadioValue()
+  whatToMakeOutput.innerHTML = ""
   switch (meal) {
     case 'Sides':
-    whatToMakeOutput.innerHTML = ""
     printMeal(sides)
     showOutput()
     break
     case 'Mains':
-    whatToMakeOutput.innerHTML = ""
     printMeal(mains)
     showOutput()
     break
     case 'Desserts':
-    whatToMakeOutput.innerHTML = ""
     printMeal(desserts)
     showOutput()
     break
     case 'Entire Meal':
-    whatToMakeOutput.innerHTML = ""
     printMeal(mains)
     whatToMakeOutput.innerHTML += " with a side of "
     printMeal(sides)
@@ -90,6 +83,7 @@ function letsCook() {
     whatToMakeOutput.innerHTML += " for dessert."
     showOutput()
     break
+
   }
 }
 
@@ -97,7 +91,6 @@ function showOutput() {
   whatToMakeSection.classList.remove('hidden')
   cookpot.classList.add('hidden')
 }
-
 
 function getRadioValue() {
 for (var i = 0; i < radioBtns.length; i++ ) {
