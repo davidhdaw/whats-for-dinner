@@ -1,4 +1,4 @@
-# Hang In There!
+# Whats For Dinner?
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -29,12 +29,18 @@ Need help deciding what to make tonight? "What's for Dinner" can help. This ligh
 
 ### Features
 - Shows a random side, main dish or dessert when that radio button is selected and the "Let's Cook" button is clicked.
+![Randomized meals](/assets/Dinner1.gif)
 - "Lets Cook" button is hidden until a selection is made.
+![Lets Cook button starts hidden](/assets/Dinner2.gif)
 - User can select Entire Meal to be given an entire randomized menu.
-- Randomized output has usable clear button that can be clicked to reset the random menu form and show the default cookpot image again.
-- Add a recipe button at top of page opens a form to add a new recipe at bottom of page.
+![Entire Meal Randomized](/assets/Dinner3.gif)
+- Randomized output has a clear button that can be clicked to reset the random menu form and show the cookpot image again.
+![Clear Button Resets Fields](/assets/Dinner4.gif)
+- "Add a recipe" button at top of page opens a form to add a new recipe at bottom of page.
+![Add Recipe Form Popup](/assets/Dinner5.gif)
 - New meals can be added to the randomized selections by filling out the form and pressing "Add New" Button.
 - Add recipe form has error messages for both missing inputs and invalid recipe types.
+![Adding recipes and error handling](/assets/Dinner6.gif)
 
 ### Reflection
 This is a relatively simple project to show what you can do with basic HTML, CSS and JavaScript. However it also shows just how much coding and styling goes into even "basic" webpages. Even with several additional features added the project very much feels like a Minimum Viable Product with plenty of revisions possible on both the styling and the functionality
@@ -46,10 +52,6 @@ This is a relatively simple project to show what you can do with basic HTML, CSS
 - Change "Recipe Type" in the new recipe form to a dropdown menu.
 - Options to save or "favorite" recipes.
 - Local storage so that added recipes persist between sessions.
-
-
-### Organizational Resources
-- [Google Sheet](https://docs.google.com/spreadsheets/d/1TArYW4BWjuTwoOI70uaKfKOVwcMoaMXObhMUaFirziw/edit?usp=sharing)
 
 ### Contributors
 - [David Daw](https://github.com/davidhdaw)
